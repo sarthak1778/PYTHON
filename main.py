@@ -1,4 +1,4 @@
-print("Hello World");
+print("Hello World"); 
 print("A+B");
 print(5);
 #this is use to add the single line comment in the program.
@@ -18,6 +18,26 @@ print("Hey",6,7,sep="-",end="009")
 print("Hello")
 print("Hey",6,7,sep="-",end="009\n")
 print("Hello")
+a=complex(2,3)
+b="Sarthak"
+c=True
+d=None
+e=False
+print(a,b,c,d,e,sep="\n");
+print(type(a),type(b),type(c),type(d),type(e))
+list=[1,2,3,[4,5],"S","A","#"]
+print(list)
+tuple=(1,2,3,(4,5),"S","A","#")
+print(tuple)
+dict={1:"S",2:"A","R":3}
+print(dict)
 
-
-
+#Operators
+#1st is arithmetic operator
+print(15+6)
+print(15-6)
+print(15*6)
+print(15/6) #division 
+print(15%6)  #Modulus or remainder
+print(15//6)  #Floor Division  or quotient 
+print(2**4) #Exponential
