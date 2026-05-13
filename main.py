@@ -42,3 +42,28 @@ print(15%6)  #Modulus or remainder
 print(15//6)  #Floor Division  or quotient 
 print(2**4) #Exponential
 
+#TypeCasting 
+D1="1"
+D2="3"
+print(D1+D2)
+print(int(D1)+int(D2))
+#explicit type conversion 
+string="15"
+number=7
+string_number=int(string)
+sum=number+string_number
+print("The sum of both the numbers is",sum)
+#implicit type conversion 
+c=1.6
+d=8
+print(c+d)  #data type is float automatically... to higher order data type
+
+#Day 10 Taking user input in python
+a=input("Enter name:")
+print("My name is",a)
+
+a=input("Enter Number1:")  #string type data
+b=input("Enter Number2:")  #string type data
+print(a+b)  #concatenate 
+
+
