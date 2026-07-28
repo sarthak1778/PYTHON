@@ -1,2 +1,3 @@
 # PYTHON
-100 days of code with harry 
+Learning python after a long time 
+
