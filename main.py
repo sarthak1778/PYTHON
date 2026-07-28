@@ -1,10 +1,10 @@
-print("Hello World"); 
-print("A+B");
-print(5);
+print("Hello World")
+print("A+B")
+print(5)
 #this is use to add the single line comment in the program.
 #ctrl+/ is use to comment and un-comment multiple lines at a same time by selecting all those lines.
-print("output") #will  print 
-'''
+print("output") #will print 
+''' 
 to move any line in the multi-level;
 we can use the triple-single quotes 
 or triple-double quotes
@@ -65,5 +65,16 @@ print("My name is",a)
 a=input("Enter Number1:")  #string type data
 b=input("Enter Number2:")  #string type data
 print(a+b)  #concatenate 
+
+#Multi-line String
+X="""My name Is 
+sarthak 
+and i want to learn python"""
+print(X)
+
+#for accessing character in a string - looping method
+for character in X:
+    print(character)
+
 
 

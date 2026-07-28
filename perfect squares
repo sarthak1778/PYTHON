@@ -1,0 +1,13 @@
+# Print all the perfect squares number between 1 and 500
+
+def perfect_squares(n):
+    l=[]
+    for i in range(1,n+1):
+        if (i**0.5) % 1 == 0:
+            l.append(i)
+    return l
+
+while True:
+    n=int(input("Enter a number to print perfect squares up to: "))
+    print(perfect_squares(n))
+    
