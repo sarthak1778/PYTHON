@@ -6,15 +6,11 @@
 1. WAP to multiply 2 matrices using 2D array and using loops.
 
 #Assignment 3
-1. WAP to print fibonacci series up to n terms.
-
-#Assignment 4
 1.WAP to print a fibonacci series if someone enters fib(-3) =====[Negafibonacci series]]
 
-#Assignment 5
+#Assignment 4
 1.WAP to print all the number less than n if fib(n) is called in such a way that it prints all the numbers less than n in the fibonacci series.
 
-#Assignment 6
-1. WAP to find factorial of a number 
-
-#Assignment 7
+#Assignment 5
+1. Create an array with 5 values and delete the value at index 2 without using the built-in `del` function. 
+2.WAP to reverse an array without using the built-in `reverse()` function.

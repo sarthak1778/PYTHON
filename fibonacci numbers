@@ -1,4 +1,4 @@
-#print first 50 fibonacci numbers 
+#print first n fibonacci numbers 
 #check whether the given number is prime or not 
 
 # Function to generate first n Fibonacci numbers
@@ -24,11 +24,11 @@ def is_prime(num):
             return False
     return True
 
-# Print first 50 Fibonacci numbers
-fib_numbers = fibonacci(50)
-print("First 50 Fibonacci numbers:")
-print(fib_numbers)
+# Print first n Fibonacci numbers
+n=int(input("Enter the number of Fibonacci numbers to generate: "))
+print("First",n,"Fibonacci numbers:")
+print( fibonacci(n))
 
 # Example: check if a number is prime
-number_to_check = 47
-print(f"\nIs {number_to_check} prime? {is_prime(number_to_check)}")
+num=int(input("Enter a number to check if it is prime: "))
+print("Is",num,"prime?" ,is_prime(num))
